@@ -24,6 +24,9 @@ import {
   typescript,
   web,
 } from '../assets';
+import { IExperience } from './IExperience';
+import { IProject } from './IProject';
+import { ITestimonial } from './ITestimonial';
 
 export const navLinks = [
   {
@@ -114,7 +117,7 @@ const technologies = [
   },
 ];
 
-const experiences = [
+const experiences: IExperience[] = [
   {
     title: 'React.js Developer',
     company_name: 'Starbucks',
@@ -169,7 +172,7 @@ const experiences = [
   },
 ];
 
-const testimonials = [
+const testimonials: ITestimonial[] = [
   {
     testimonial:
       'I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.',
@@ -196,7 +199,7 @@ const testimonials = [
   },
 ];
 
-const projects = [
+const projects: IProject[] = [
   {
     name: 'Car Rent',
     description:
