@@ -24,7 +24,7 @@ const ProjectCard = ({ project, index }: ProjectCardProps) => {
             className="w-full h-full object-cover rounded-2xl"
           />
 
-          <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
+          <div className="absolute inset-0 flex justify-end m-3 card-img_hover gap-4">
             <a
               href={project.source_code_link}
               target="_blank"
@@ -36,6 +36,19 @@ const ProjectCard = ({ project, index }: ProjectCardProps) => {
                 className="w-3/4 h-3/4 object-contain"
               />
             </a>
+            {project.live_link && (
+              <a
+                href={project.live_link}
+                target="_blank"
+                className="black-gradient w-10 h-10 rounded-full flex justify-center items-center"
+              >
+                <img
+                  src={github}
+                  alt="github"
+                  className="w-3/4 h-3/4 object-contain"
+                />
+              </a>
+            )}
           </div>
         </div>
 

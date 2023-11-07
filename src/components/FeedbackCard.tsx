@@ -19,14 +19,20 @@ const FeedbackCard = ({ testimonial, index }: FeedbackCardProps) => {
         <p>{testimonial.testimonial}</p>
         <div className="mt-7 flex justify-between items-center gap-2">
           <div className="flex-1 flex flex-col">
-            <p>
-              <span>@</span>
+            <p className="test-white font-medium text-[1rem]">
+              <span className="blue-text-gradient">@</span>
               {testimonial.name}
             </p>
-            <p>
+            <p className="mt-1 text-secondary text-[12px]">
               {testimonial.designation} of {testimonial.company}
             </p>
           </div>
+
+          <img
+            src={testimonial.image}
+            alt={`feedback-${testimonial.name}`}
+            className="w-10 h-10 rounded-full object-cover"
+          />
         </div>
       </div>
     </motion.div>

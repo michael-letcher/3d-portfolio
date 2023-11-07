@@ -7,4 +7,5 @@ export interface IProject {
   }[];
   image: string;
   source_code_link: string;
+  live_link?: string;
 }

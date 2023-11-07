@@ -6,9 +6,11 @@ import {
   docker,
   figma,
   git,
+  github,
   html,
   javascript,
   jobit,
+  linkedIn,
   meta,
   mobile,
   mongodb,
@@ -265,4 +267,24 @@ const projects: IProject[] = [
   },
 ];
 
-export { experiences, projects, services, technologies, testimonials };
+const contacts = [
+  {
+    name: 'Github',
+    link: 'https://github.com/michael-letcher',
+    icon: github,
+  },
+  {
+    name: 'LinkedIn',
+    link: 'https://www.linkedin.com/in/michaelletcher1/',
+    icon: linkedIn,
+  },
+];
+
+export {
+  contacts,
+  experiences,
+  projects,
+  services,
+  technologies,
+  testimonials,
+};
