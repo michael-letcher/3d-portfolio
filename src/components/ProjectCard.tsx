@@ -28,7 +28,7 @@ const ProjectCard = ({ project, index }: ProjectCardProps) => {
             <a
               href={project.source_code_link}
               target="_blank"
-              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center"
+              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
               <img
                 src={github}
@@ -40,13 +40,9 @@ const ProjectCard = ({ project, index }: ProjectCardProps) => {
               <a
                 href={project.live_link}
                 target="_blank"
-                className="black-gradient w-10 h-10 rounded-full flex justify-center items-center"
+                className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer bg-black-100"
               >
-                <img
-                  src={github}
-                  alt="github"
-                  className="w-3/4 h-3/4 object-contain"
-                />
+                🚀
               </a>
             )}
           </div>

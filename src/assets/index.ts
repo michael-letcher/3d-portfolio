@@ -8,6 +8,7 @@ import menu from './menu.svg';
 import mobile from './mobile.png';
 import web from './web.png';
 
+// Technologies
 import css from './tech/css.png';
 import docker from './tech/docker.png';
 import figma from './tech/figma.png';
@@ -22,43 +23,47 @@ import tailwind from './tech/tailwind.png';
 import threejs from './tech/threejs.svg';
 import typescript from './tech/typescript.png';
 
-import meta from './company/meta.png';
-import shopify from './company/shopify.png';
-import starbucks from './company/starbucks.png';
-import tesla from './company/tesla.png';
+// Companies
+import atlassian from './company/atlassian_logo.jpg';
+import elementSuite from './company/elementsuite_logo.jpg';
+import nintex from './company/nintex_logo.jpg';
+import pirean from './company/pirean_logo.jpg';
+import roller from './company/roller_logo.jpg';
 
-import carrent from './carrent.png';
-import jobit from './jobit.png';
-import tripguide from './tripguide.png';
+// Projects
+import fineDining from './projects/fine_dining.png';
+import gorillaz from './projects/gorillaz.jpg';
+import gtp3 from './projects/gpt3.png';
 
 export {
+  atlassian,
   backend,
-  carrent,
   close,
   creator,
   css,
   docker,
+  elementSuite,
   figma,
+  fineDining,
   git,
   github,
+  gorillaz,
+  gtp3,
   html,
   javascript,
-  jobit,
   linkedIn,
   logo,
   menu,
-  meta,
   mobile,
   mongodb,
+  nintex,
   nodejs,
+  pirean,
   reactjs,
   redux,
-  shopify,
-  starbucks,
+  roller,
   tailwind,
-  tesla,
   threejs,
-  tripguide,
   typescript,
   web,
 };
